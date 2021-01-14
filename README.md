@@ -1,4 +1,4 @@
-# overcasteleven.github.io
+# erinvasquez.github.io
 GitHub Pages site for hosting my static HTML website.
 
 If you're reading this, you may have received my resume, and I welcome you to this GitHub Repository.
