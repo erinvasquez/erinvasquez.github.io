@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('images/White Snake Dark Gaussian Blur.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-origin: padding-box;
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    border: 0px dashed red;
+    max-width: 100%;
+}
+
+.top-container {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/*
+        [Section 1] is the "landing pad" intro that everyone sees before actual contact
+        */
+.landingPanel {
+    align-content: center;
+    text-align: center;
+    padding-top: 65%;
+    padding-bottom: 20%;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+    .landingPanel h1 {
+        font-size: 75px;
+        text-align: left;
+    }
+
+    .landingPanel h2 {
+        font-size: 32px;
+    }
+
+/*
+             [Section 2] is the first one after the navbar and holds actual content hopefully
+             */
+
+.darkPanel {
+    align-content: center;
+    text-align: left;
+    margin: 0%;
+    padding-top: 63.5%;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    padding-bottom: 63.5%;
+    background: #1f1f1f;
+    color: white;
+}
+
+.darkPanel button {
+    border: 2px solid white;
+}
+/*
+         [Section 3] Holds more content, but in contrast to [section 2]
+         */
+
+.lightPanel {
+    align-content: center;
+    text-align: left;
+    margin: 0%;
+    padding-top: 63.5%;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    padding-bottom: 63.5%;
+    background: #ffffff;
+    color: black;
+}
+
+    .lightPanel p {
+        font-size: 20px;
+    }
+
+    .lightPanel button {
+        color: black;
+        border: 2px solid black
+    }
+
+
+.footer {
+    align-content: center;
+    text-align: center;
+    margin: 0%;
+    padding-top: 0.5%;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    padding-bottom: 0.5%;
+    background: #1f1f1f;
+}
+
+    .footer h2 {
+        text-align: left;
+    }
+
+    .footer p {
+        font-size: 10px;
+    }
+
+
+/*
+         Landing page button that leads to other places on site
+        */
+.mainButton {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 4px;
+    cursor: pointer;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+    .sticky + .content {
+        padding-top: 200px;
+    }
+
+.navbar {
+    overflow: hidden;
+    background-color: #333333;
+    margin: 0px;
+    width: 100%;
+}
+
+    .navbar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        margin: 10px;
+        padding: 12px 15px;
+        border: 2px solid white;
+        border-radius: 8px;
+    }
+
+        .navbar a.right {
+            float: right;
+        }
+
+        .navbar a:hover {
+            background-color: #101010;
+            color: black;
+        }
