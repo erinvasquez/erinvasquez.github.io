@@ -1,5 +1,7 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Fraunces', serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: url('images/White Snake Dark Gaussian Blur.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -7,30 +9,21 @@ body {
     background-attachment: fixed;
     background-clip: border-box;
     background-origin: padding-box;
-    color: #ffffff;
-    margin: 0px;
-    padding: 0px;
-    border: 0px dashed red;
+    color: white;
+    margin: 0%;
+    padding: 0%;
     max-width: 100%;
 }
-
-.top-container {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
 /*
         [Section 1] is the "landing pad" intro that everyone sees before actual contact
         */
 .landingPanel {
     align-content: center;
     text-align: center;
-    padding-top: 65%;
-    padding-bottom: 20%;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-top: 45%;
+    padding-bottom: 75%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
     .landingPanel h1 {
