@@ -22,7 +22,7 @@
 
 <body>
 
-    <div class="landingPanel">
+    <div class="landingPanel" id="top">
         <h2>"The right man in the wrong place can make all the difference."</h2>
         <form>
             <button class="mainButton" onclick="window.location.href='#resume'">Résumé</button>
@@ -33,28 +33,34 @@
         </form>
     </div>
 
-    <div class="darkPanel" id="resume">
-        <h2>Someone to fill in a niche at the workplace, perhaps?</h2>
+    <div class="darkPanel">
+
+        <div id="resume" style="align-content:center; padding-top:25%;">
+            <h2>Someone to fill in a niche at the workplace, perhaps?</h2>
+            <button class="mainButton" onclick="window.open('./resume.html','_blank')">Résumé</button>
+            <button class="mainButton" onclick="window.location.href='#top'">Back</button>
+        </div>
+        
 
 
-        <button class="mainButton" onclick="window.open('./resume.html','_blank')">Résumé</button>
 
     </div>
 
-    <div class="lightPanel" id="portfolio">
+    <div class="lightPanel" >
 
-        <h2>Take a look at some cool stuff I have.</h2>
-        <button class="mainButton" onclick="window.open('./portfolio.html','_blank')">Portfolio</button>
+        <div id="portfolio" style="align-content:center; padding-top:25%;">
+            <h2>Take a look at some cool stuff I have.</h2>
+            <button class="mainButton" onclick="window.open('./portfolio.html','_blank')">Portfolio</button>
+            <button class="mainButton" onclick="window.location.href='#top'">Back</button>
+        </div>
+
 
         <!--
         1) Elevator PItch. Let them understand me, what I can do, and what I'm looking for. @ to 3 paragraph summary. Things ive worked on, my superpower, my personality. Avoid life story.
         Have examples of best work like a gallery. Show off some work. LIke how many hours spent
         practicing or something. Don't put EVERYTHING, just the good stuff. Avoiding showing off any in-progress works. Keep the links professional and job related.. LIke sites I contribute to or that I've built. Or anywhere it looks like I'm an expert.
-        Include a professional blog. You get to become a thought leader. Show of writing skills man.
-        Skip a blog if you don't update it consistently. Old blogs means old site.
         Include testimonials. Avoid bragging with testimonials. Include myself visualized. VECTOR ART yASELF MAN.
         A page for each section of your resume sounds awesome. Try using different images for each as an eyecatch. INclude contact info and links at some point (bottom most likely).
-
         -->
 
     </div>
@@ -100,7 +106,7 @@
             elmnt.style.backgroundColor = color;
         }
 
-        document.getElementById("defaultOpen").click();
+        //document.getElementById("defaultOpen").click();
 
     </script>
 
